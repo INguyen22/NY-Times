@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+select {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+}
