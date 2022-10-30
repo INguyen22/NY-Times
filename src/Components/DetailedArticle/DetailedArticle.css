@@ -1,0 +1,39 @@
+.articleDetailsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.backButton {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border-color: white;
+    position: fixed;
+    right: 1px;
+}
+
+.articleTitle {
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.articleInfo {
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 0%;
+}
+
+.articleAbstract {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
+    height: 13vh;
+    width: 50vw;
+}
+
+.fullStoryLink {
+    color: white;
+}
