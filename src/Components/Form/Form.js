@@ -1,14 +1,19 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import "./Form.css"
 
-const Form = () => {
+const Form = ({findNews}) => {
     const [section, setSection] = useState("")
 
     const possibleSections = ["arts", "automobiles", "books", "business", "fashion", "food", "health", "home", "insider", "magazine", "movies", "nyregion", "obituaries", "opinion", "politics", "realestate", "science", "sports", "sundayreview", "technology", "theater", "t-magazine", "travel", "upshot", "us", "world"]
 
     const sectionOptions = possibleSections.map(section => {
-        return <option value={section}>{section}</option>
+        return <option key={Math.random()} value={section}>{section}</option>
     })
+
+    useEffect(() => {
+        findNews(section)
+    }, [section])
+
   return (
     <div>
         <form>
@@ -18,7 +23,7 @@ const Form = () => {
                 placeholder="Filter..."
                 onChange={(event) => setSection(event.target.value)}
             >
-                <option value="">Filter...</option>
+                <option value="home">Filter...</option>
                 {sectionOptions}
             </select>
         </form>
