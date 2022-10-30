@@ -4,8 +4,19 @@ import NewsCard from '../NewsCard/NewsCard'
 import Form from '../Form/Form'
 import "./Main.css"
 
-const Main = ({news}) => {
+const Main = ({news, searchedNews, findNews}) => {
     const newsCards = news.map(article => {
+        const {title, abstract, section, published_date, updated_date} = article
+        return <NewsCard 
+            key={Math.random()}
+            title={title}
+            abstract={abstract}
+            section={section}
+            published_date={published_date}
+            updated_date={updated_date}
+        />
+    })
+    const searchedNewsCards = searchedNews.map(article => {
         const {title, abstract, section, published_date, updated_date} = article
         return <NewsCard 
             key={Math.random()}
@@ -20,8 +31,8 @@ const Main = ({news}) => {
     <div className='mainPage'>
         <img className="logo" src={scoop} alt="the scoop logo"/>
         <div className='newsContainer'>
-        <Form />
-            {newsCards}
+        <Form findNews={findNews}/>
+            {searchedNews.length !== 0 ? searchedNewsCards : newsCards}
         </div>
     </div>
   )
