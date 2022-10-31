@@ -1,6 +1,5 @@
-# Heat-Check-FE
-<img width="100%" alt="heat-check-logo" src="![the-scoop-logo2](https://user-images.githubusercontent.com/100492419/199126032-e4995942-b266-4b2c-bb9f-d8a19aaf5be4.png)
-">
+# The Scoop
+![the-scoop-logo2](https://user-images.githubusercontent.com/100492419/199126032-e4995942-b266-4b2c-bb9f-d8a19aaf5be4.png)
 
 ## Table of Contents
   - [Introduction](#introduction)
@@ -23,17 +22,15 @@
 ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
 ## Features
-    - Users are able to search for spicy restaurants by city, address, or zip code
-    - Users are able to log in to add reviews, ratings, and dishes to menu
-    - Users are given 20 different spicy restaurants in a list or map view
-    - Users can delete a dish from menu
+   - Users are able to see a list view of the top news stories
+   - Users are able to search for top news stories for a certain topic using the search bar
+   - Users can view an article in more detail by clicking on the "get the scoop button"
+   - Users can be taken to the original article on ney york times by clicking on the provided link in the article details section
 
 ## Illustrations
-<img width="100%" alt="The scoop homepage" src="![Screen Shot 2022-10-31 at 5 00 24 PM](https://user-images.githubusercontent.com/100492419/199125747-68b653b3-78af-4bc3-8ff4-2ff2f614a42d.png)
-">
+![Screen Shot 2022-10-31 at 5 00 24 PM](https://user-images.githubusercontent.com/100492419/199125747-68b653b3-78af-4bc3-8ff4-2ff2f614a42d.png)
   - The Scoop home page
-<img width="100%" alt="heat-check-rest-list-view" src="![Screen Shot 2022-10-31 at 5 01 37 PM](https://user-images.githubusercontent.com/100492419/199125844-55c13c3a-0f36-4aca-a886-781c3504fb71.png)
-">
+[Screen Shot 2022-10-31 at 5 01 37 PM](https://user-images.githubusercontent.com/100492419/199125844-55c13c3a-0f36-4aca-a886-781c3504fb71.png)
   - The Scoop's article detail page
 
 ## Deployed Page
