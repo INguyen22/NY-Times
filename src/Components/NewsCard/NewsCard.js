@@ -9,7 +9,7 @@ const NewsCard = ({title, abstract, uri}) => {
     <div className='card'>
         <div className='newsTop'>
             <h2 className='newsTitle'>{title}</h2>
-            <Link to={`/${uriId[3]}`}><button className='scoopButton'>Get The Scoop</button></Link>
+            <Link to={`/scoop/${uriId[3]}`}><button className='scoopButton'>Get The Scoop</button></Link>
         </div>
         <p className='newsAbstract'>{abstract}</p>
     </div>
