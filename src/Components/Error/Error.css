@@ -1,0 +1,22 @@
+.errorPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a160c;
+    color: white;
+    height: 100vh;
+}
+
+.errorImage {
+    height: 50vh;
+    width: 40vw;
+}
+
+.errorMessage {
+    font-size: 24px;
+}
+
+.hereLink {
+    color: bisque;
+}
