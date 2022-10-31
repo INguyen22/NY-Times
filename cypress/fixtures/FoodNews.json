@@ -1,0 +1,128 @@
+{
+    "results":[
+        {
+            "section": "dining",
+            "subsection": "",
+            "title": "These Cooks, Waiters and Casino Workers Could Swing the Senate",
+            "abstract": "People in typically low-status jobs enjoy unusual clout in Nevada, where the powerful Las Vegas culinary union is rallying members to tip close races.",
+            "url": "https://www.nytimes.com/2022/10/31/dining/las-vegas-workers-nevada-midterm-election.html",
+            "uri": "nyt://article/fc1a4d02-44aa-5e5d-b65e-81f65cfe58f8",
+            "byline": "By Brett Anderson",
+            "item_type": "Article",
+            "updated_date": "2022-10-31T15:25:36-04:00",
+            "created_date": "2022-10-31T14:22:12-04:00",
+            "published_date": "2022-10-31T14:22:12-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Midterm Elections (2022)",
+                "Organized Labor",
+                "Restaurants",
+                "Casinos"
+            ],
+            "org_facet": [
+                "Culinary Workers Union"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "Las Vegas (Nev)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/02/dining/02vegas-hospitality1/merlin_215204775_9ad6c3d9-ccee-4f97-abac-4d691a1f0c05-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1366,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Members of Culinary Workers Union 226 gathered at its Las Vegas headquarters in October for a meeting that doubled as a political rally. ",
+                    "copyright": "Saeed Rahbaran for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/02/dining/02vegas-hospitality1/merlin_215204775_9ad6c3d9-ccee-4f97-abac-4d691a1f0c05-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Members of Culinary Workers Union 226 gathered at its Las Vegas headquarters in October for a meeting that doubled as a political rally. ",
+                    "copyright": "Saeed Rahbaran for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/02/dining/02vegas-hospitality1/merlin_215204775_9ad6c3d9-ccee-4f97-abac-4d691a1f0c05-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Members of Culinary Workers Union 226 gathered at its Las Vegas headquarters in October for a meeting that doubled as a political rally. ",
+                    "copyright": "Saeed Rahbaran for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3WkDUtg"
+        },
+        {
+            "section": "dining",
+            "subsection": "",
+            "title": "In Cleveland, They’re Cooking Up a Gay Neighborhood From Scratch",
+            "abstract": "Restaurants, kitchen classes and gardening are key parts of an effort to create an L.G.B.T.Q. district that can help lift the area’s economy.",
+            "url": "https://www.nytimes.com/2022/10/28/dining/cleveland-restaurants-kitchens-gay-neighborhood.html",
+            "uri": "nyt://article/b8797ede-1602-567e-b976-553dbb094ac2",
+            "byline": "By Erik Piepenburg",
+            "item_type": "Article",
+            "updated_date": "2022-10-31T15:58:07-04:00",
+            "created_date": "2022-10-28T12:14:11-04:00",
+            "published_date": "2022-10-28T12:14:11-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Area Planning and Renewal",
+                "Homosexuality and Bisexuality",
+                "Transgender and Transsexuals",
+                "Restaurants",
+                "Gardens and Gardening",
+                "Real Estate (Commercial)",
+                "Public-Private Sector Cooperation"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "Cleveland (Ohio)",
+                "Lakewood (Ohio)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/02/dining/02gay-district4/merlin_215413419_1c12b43b-cc7a-46d8-80f4-a085a94c6088-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The opening weekend at the Fieldhouse, a new L.G.B.T.Q. entertainment complex in Lakewood, Ohio, a Cleveland suburb, featured drag performances by “RuPaul’s Drag Race” stars and local artists.",
+                    "copyright": "Daniel Lozada for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/02/dining/02gay-district4/merlin_215413419_1c12b43b-cc7a-46d8-80f4-a085a94c6088-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The opening weekend at the Fieldhouse, a new L.G.B.T.Q. entertainment complex in Lakewood, Ohio, a Cleveland suburb, featured drag performances by “RuPaul’s Drag Race” stars and local artists.",
+                    "copyright": "Daniel Lozada for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/02/dining/02gay-district4/merlin_215413419_1c12b43b-cc7a-46d8-80f4-a085a94c6088-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The opening weekend at the Fieldhouse, a new L.G.B.T.Q. entertainment complex in Lakewood, Ohio, a Cleveland suburb, featured drag performances by “RuPaul’s Drag Race” stars and local artists.",
+                    "copyright": "Daniel Lozada for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3zpIm0d"
+        }
+    ]
+}

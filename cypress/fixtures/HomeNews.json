@@ -1,0 +1,139 @@
+{
+    "results": [
+        {
+            "section": "us",
+            "subsection": "",
+            "title": "Intruder Wanted to Break Speaker Pelosi’s Kneecaps, Federal Complaint Says",
+            "abstract": "Federal prosecutors filed charges on Monday against the man the police said broke into House Speaker Nancy Pelosi’s San Francisco home and struck her husband with a hammer.",
+            "url": "https://www.nytimes.com/2022/10/31/us/pelosi-home-attack-suspect-charged.html",
+            "uri": "nyt://article/9314cdb1-dc46-52a8-8056-aa561d8ddbf0",
+            "byline": "By Glenn Thrush, Kellen Browning and Luke Vander Ploeg",
+            "item_type": "Article",
+            "updated_date": "2022-10-31T16:19:27-04:00",
+            "created_date": "2022-10-31T14:57:08-04:00",
+            "published_date": "2022-10-31T14:57:08-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Storming of the US Capitol (Jan, 2021)",
+                "Assaults",
+                "Kidnapping and Hostages",
+                "United States Politics and Government"
+            ],
+            "org_facet": [
+                "Justice Department"
+            ],
+            "per_facet": [
+                "Pelosi, Nancy",
+                "Pelosi, Paul"
+            ],
+            "geo_facet": [
+                "California",
+                "Pacific Heights (San Francisco, Calif)",
+                "San Francisco (Calif)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2022/10/30/us/00Nat-pelosi-charges-1/merlin_215605134_57f89922-0ed1-4682-bafe-28d33af82e7b-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1536,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "House Speaker Nancy Pelosi’s house in the Pacific Heights neighborhood of San Francisco, where her husband, Paul Pelosi, was attacked by an intruder on Friday.",
+                    "copyright": "Jim Wilson/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/10/30/us/00Nat-pelosi-charges-1/merlin_215605134_57f89922-0ed1-4682-bafe-28d33af82e7b-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "House Speaker Nancy Pelosi’s house in the Pacific Heights neighborhood of San Francisco, where her husband, Paul Pelosi, was attacked by an intruder on Friday.",
+                    "copyright": "Jim Wilson/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/10/30/us/00Nat-pelosi-charges-1/00Nat-pelosi-charges-1-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "House Speaker Nancy Pelosi’s house in the Pacific Heights neighborhood of San Francisco, where her husband, Paul Pelosi, was attacked by an intruder on Friday.",
+                    "copyright": "Jim Wilson/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3TUb2Xd"
+        },
+        {
+            "section": "technology",
+            "subsection": "",
+            "title": "Letters, Tweets, TV: How Midterm Disinformation Has Washed Over Pennsylvania",
+            "abstract": "One state’s experience underscores how pervasive false and misleading information has become in the country’s electoral process, online and off.",
+            "url": "https://www.nytimes.com/2022/10/31/technology/midterm-disinformation-pennsylvania.html",
+            "uri": "nyt://article/439ab4fa-d4a0-54a2-a5cf-5af59e8422ea",
+            "byline": "By Steven Lee Myers",
+            "item_type": "Article",
+            "updated_date": "2022-10-31T12:05:42-04:00",
+            "created_date": "2022-10-31T11:54:46-04:00",
+            "published_date": "2022-10-31T11:54:46-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Presidential Election of 2020",
+                "Voter Fraud (Election Fraud)",
+                "Absentee Voting",
+                "Project Democracy",
+                "Debates (Political)",
+                "Presidential Election of 2024",
+                "Politics and Government",
+                "Social Media",
+                "Rumors and Misinformation",
+                "Computers and the Internet",
+                "Midterm Elections (2022)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Fetterman, John (1969- )",
+                "Mastriano, Doug"
+            ],
+            "geo_facet": [
+                "Pennsylvania"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2022/10/26/business/00misinfo-penn-mastriano/merlin_215476662_ab7188ee-76d8-460d-97ec-4c43266d9462-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A post on Twitter falsely claimed that Sen. Doug Mastriano, a Republican candidate for governor of Pennsylvania, said that Iran’s supreme leader had “the right idea of how women should be treated.”",
+                    "copyright": "Matt Rourke/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/10/26/business/00misinfo-penn-mastriano/00misinfo-penn-mastriano-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A post on Twitter falsely claimed that Sen. Doug Mastriano, a Republican candidate for governor of Pennsylvania, said that Iran’s supreme leader had “the right idea of how women should be treated.”",
+                    "copyright": "Matt Rourke/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/10/26/business/00misinfo-penn-mastriano/00misinfo-penn-mastriano-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A post on Twitter falsely claimed that Sen. Doug Mastriano, a Republican candidate for governor of Pennsylvania, said that Iran’s supreme leader had “the right idea of how women should be treated.”",
+                    "copyright": "Matt Rourke/Associated Press"
+                }
+            ],
+            "short_url": "https://nyti.ms/3U81uYw"
+        }
+    ]
+}
