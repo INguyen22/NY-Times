@@ -30,7 +30,8 @@
 ## Illustrations
 ![Screen Shot 2022-10-31 at 5 00 24 PM](https://user-images.githubusercontent.com/100492419/199125747-68b653b3-78af-4bc3-8ff4-2ff2f614a42d.png)
   - The Scoop home page
-[Screen Shot 2022-10-31 at 5 01 37 PM](https://user-images.githubusercontent.com/100492419/199125844-55c13c3a-0f36-4aca-a886-781c3504fb71.png)
+ 
+![Screen Shot 2022-10-31 at 5 01 37 PM](https://user-images.githubusercontent.com/100492419/199125844-55c13c3a-0f36-4aca-a886-781c3504fb71.png)
   - The Scoop's article detail page
 
 ## Deployed Page
