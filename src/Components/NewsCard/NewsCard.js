@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import "./NewsCard.css"
 
-const NewsCard = ({title, abstract, uri}) => {
+const NewsCard = ({title, abstract, multimedia, uri}) => {
     const uriId = uri.split("/")
     // console.log('uri id', uriId[3])
   return (
