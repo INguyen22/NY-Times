@@ -41,7 +41,7 @@ describe('App', () => {
 
   })
   it('should be able to click on an article to see a more detailed page', () => {
-    cy.get(".scoopButton").first().click()
+    cy.get(".scoopButton").first().click({force: true})
     cy.get(".articleTitle").contains("Intruder Wanted to Break Speaker Pelosi’s Kneecaps, Federal Complaint Says")
     cy.get(".articleInfo").first().contains("Published: 2022-10-31 and updated on 2022-10-31 by By Glenn Thrush, Kellen Browning and Luke Vander Ploeg")
     cy.get(".articleInfo").last().contains("Location: California")
