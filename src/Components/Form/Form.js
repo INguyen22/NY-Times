@@ -2,9 +2,9 @@ import React, {useEffect, useState} from 'react'
 import "./Form.css"
 
 const Form = ({findNews}) => {
-    const [section, setSection] = useState("")
+    const [section, setSection] = useState("home")
 
-    const possibleSections = ["arts", "automobiles", "books", "business", "fashion", "food", "health", "home", "insider", "magazine", "movies", "nyregion", "obituaries", "opinion", "politics", "realestate", "science", "sports", "sundayreview", "technology", "theater", "t-magazine", "travel", "upshot", "us", "world"]
+    const possibleSections = ["arts", "automobiles", "books", "business", "fashion", "food", "health", "insider", "magazine", "movies", "nyregion", "obituaries", "opinion", "politics", "realestate", "science", "sports", "sundayreview", "technology", "theater", "t-magazine", "travel", "upshot", "us", "world"]
     // console.log('option length', possibleSections.length)
 
     const sectionOptions = possibleSections.map(section => {
