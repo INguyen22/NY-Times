@@ -3,6 +3,12 @@ form {
     justify-content: flex-end;
 }
 
+.allTopicsButton {
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
+
 select {
     background-color: black;
     color: white;

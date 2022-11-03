@@ -28,6 +28,23 @@ describe('App', () => {
     .get('.newsTitle').first().contains("These Cooks, Waiters and Casino Workers Could Swing the Senate")
     .get('.newsTitle').last().contains("In Cleveland, They’re Cooking Up a Gay Neighborhood From Scratch")
   })
+  it('should be able to see a button to take you back to the main topics', () => {
+    cy.intercept('https://api.nytimes.com/svc/topstories/v2/food.json?api-key=tuGQcmG8QUpUgvlq0aIEgXlwWjoybiFL', {fixture: `FoodNews`})
+    cy.get('select[name="section"]').select('food').should('have.value', 'food')
+    cy.get(".allTopicsButton").should('exist')
+  })
+  it('should not be able to see the main topics button when taken back to the main topics', () => {
+    cy.intercept('https://api.nytimes.com/svc/topstories/v2/food.json?api-key=tuGQcmG8QUpUgvlq0aIEgXlwWjoybiFL', {fixture: `FoodNews`})
+    cy.get('select[name="section"]').select('food').should('have.value', 'food')
+    cy.intercept('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=tuGQcmG8QUpUgvlq0aIEgXlwWjoybiFL', {fixture: `HomeNews`})
+    cy.get(".allTopicsButton").click({force: true})
+    cy.get('.card').should('have.length', 2)
+    .get('.card').first().contains("Intruder Wanted to Break Speaker Pelosi’s Kneecaps, Federal Complaint Says")
+    .get('.card').last().contains("Letters, Tweets, TV: How Midterm Disinformation Has Washed Over Pennsylvania")
+    cy.get(".allTopicsButton").click()
+    cy.get(".allTopicsButton").should('not.exist')
+ 
+  })
   it('should be able to click on an article to see a more detailed page', () => {
     cy.get(".scoopButton").first().click()
     cy.get(".articleTitle").contains("Intruder Wanted to Break Speaker Pelosi’s Kneecaps, Federal Complaint Says")

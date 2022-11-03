@@ -11,6 +11,10 @@ const Form = ({findNews}) => {
         return <option key={Math.random()} value={section}>{section}</option>
     })
 
+    const handleClick = () => {
+        setSection("home")
+    }
+
     useEffect(() => {
         findNews(section)
     }, [section])
@@ -18,6 +22,7 @@ const Form = ({findNews}) => {
   return (
     <div>
         <form>
+        {section !== "home" && <button className='allTopicsButton' onClick={() => handleClick()}>See Main Topics</button>}
             <select 
                 name="section"
                 value={section}
