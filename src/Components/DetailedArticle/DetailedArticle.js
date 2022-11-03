@@ -11,7 +11,7 @@ const DetailedArticle = ({article}) => {
     <div className='articleDetailsPage'>
         <Link to={`/`}><button className='backButton'>Go Back</button></Link>
         <h1 className='articleTitle'>{title}</h1>
-        <p className='articleInfo'>Published: {publishedDate} and updated on {updatedDate} by {byline}</p>
+         <p className='articleInfo'>Published: {publishedDate} and updated on {updatedDate} by {byline}</p>
         {section && subsection && <p className='articleInfo'>Topics: {section}, {subsection}</p>}
         {geo_facet[0] && <p className='articleInfo'>Location: {geo_facet[0]}</p>}
         <img src={article.multimedia[1].url} alt={title}/>
