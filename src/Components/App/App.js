@@ -9,8 +9,8 @@ const App = () => {
   const [errorOccured, setErrorOccured] = useState(false)
   const [noNews, setNoNews] = useState(false)
   
-  const fetchData = () => {
-    fetch(`https://api.nytimes.com/svc/topstories/v2/home.json?api-key=tuGQcmG8QUpUgvlq0aIEgXlwWjoybiFL`)
+  const fetchData = (section) => {
+    fetch(`https://api.nytimes.com/svc/topstories/v2/${ section || 'home'}.json?api-key=tuGQcmG8QUpUgvlq0aIEgXlwWjoybiFL`)
     .then(res => {
       if(!res.ok) {
         throw new Error()
@@ -36,27 +36,7 @@ const App = () => {
   const findNews = (section) => {
     // console.log('section', section)
     if(section) {
-      fetch(`https://api.nytimes.com/svc/topstories/v2/${section}.json?api-key=tuGQcmG8QUpUgvlq0aIEgXlwWjoybiFL`)
-      .then(res => {
-        if(!res.ok) {
-          throw new Error()
-        } else {
-          setErrorOccured(false)
-          return res.json()
-        }
-      })
-      .then(data => {
-        console.log('searched section', data)
-        if(data.results) {
-          setNoNews(false)
-          setNews(data.results)
-        } else {
-          setNoNews(true)
-        }
-      })
-      .catch(error => {
-        setErrorOccured(true)
-      })
+      fetchData(section)
     }
   }
 

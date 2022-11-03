@@ -48,7 +48,7 @@ describe('App', () => {
     })
     cy.get("h1").contains("Error 404. We couldn't get the scoop! Please reload and try again")
   })
-  it.only('should see an error message if there are no articles for a topic', () => {
+  it('should see an error message if there are no articles for a topic', () => {
     cy.intercept('https://api.nytimes.com/svc/topstories/v2/food.json?api-key=tuGQcmG8QUpUgvlq0aIEgXlwWjoybiFL', {fixture: 'noNews'})
     cy.get('select[name="section"]').select('food').should('have.value', 'food')
     cy.get(".noNewsError").contains("Sorry there are no news articles for this topic! Sorry for the inconvienence")
