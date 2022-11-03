@@ -34,8 +34,9 @@
 ![Screen Shot 2022-10-31 at 5 01 37 PM](https://user-images.githubusercontent.com/100492419/199125844-55c13c3a-0f36-4aca-a886-781c3504fb71.png)
   - The Scoop's article detail page
 
-## Deployed Page
-<!--    Visit our published Heat-Check page [here]( https://heatcheck-fe.herokuapp.com/) -->
+## Challenges
+  - Used the article's uri instead of title when it came to routing to the detailed article page because if a article title had a special character, such as, a question mark. There would be an error becaus the application wouldn't be able to find the article. Using the uri guaranteed that no special characters would be present.
+  - When a user filtered for magazines, an error would occur where some data returned from the api returned a empty string/multimedia property. Therefore, the application could not render the different magazines properly. I added a condition to my application to only redner articles/magazines/other media to only render media that had both properties defined. 
 
 ## Possible Future Extensions
   - Be able to favorite certain news stories
